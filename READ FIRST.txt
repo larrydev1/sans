@@ -5,4 +5,6 @@ When we create a login system, the only thing we need to do in our HTML is to cr
 
 If you don't know how to make a basic HTML form, I recommend going back to my HTML course on YouTube and get familiar with HTML first. You should know HTML before learning PHP.
 
-OKAY LET'S GET STARTED!
+OKAY LET'S GET STARTED
+
+Wow - beginners need more instruction on how to use a browser to get to github index.html
