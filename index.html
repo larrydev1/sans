@@ -1,0 +1,71 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Projects Chooser</title>
+<link id="myLink" rel="stylesheet" type="text/css" href="http://clep.wildapricot.com">
+<style>
+
+#btn-group {
+	background-color: lightgrey;
+	vertical-align:middle;
+	}
+
+.button1 {
+	display: block;
+	background-color: #4CAF50;
+	color: white;
+	height: 50px;
+	width: 200px;
+	text-size: 16px;
+	border: 2px solid rgba(33, 68, 72, 0.59);
+	margin: 0 auto;
+}
+
+
+</style>
+<script>
+function myFunction() {
+  var x = document.getElementById("myLink").href;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+</head>
+
+<body>
+<br />
+<p id="demo"></p>
+<br />
+<div id="btn-group">
+<br />
+<!-- <button class=button1 onClick="myFunction()"> Project No. 1</button> -->
+<form>
+<label><input class="button1" onClick="window.location.href='index.php'" type="button" value="Project No. 1&nbsp;Clark" /></label>
+</form>
+<br />
+<form>
+<label><input class="button1" onClick="window.location.href='new_volunteer.html'" type="button" value="Project No. 1A&nbsp;Clark" /></label>
+</form>
+<br />
+<button class=button1> Project No. 2</button>
+<br />
+<button class=button1> Project No. 3</button>
+<br />
+<button class=button1> Project No. 4</button>
+<br />
+<button class=button1> Project No. 5</button>
+<br />
+<button class=button1> Project No. 6</button>
+<br />
+<button class=button1> Project No. 7</button>
+<br />
+
+</div>
+</body>
+</html>
+
+
+
+
+
+
